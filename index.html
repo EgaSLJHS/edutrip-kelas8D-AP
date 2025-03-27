@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opening Page</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #8360c3, #2ebf91);
+            font-family: 'Poppins', sans-serif;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+            text-align: center;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+        
+        h1 {
+            font-size: 48px;
+            color: white;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 20px;
+            cursor: pointer;
+            border: none;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            color: white;
+            border-radius: 25px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+        button:hover {
+            background: linear-gradient(45deg, #ff758c, #ff7eb3);
+            transform: scale(1.1);
+            box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1>Edutrip Ega 8D</h1>
+    <a href="nav.html">
+        <button>Click Me</button>
+    </a>
+</body>
+</html>

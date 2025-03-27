@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #8360c3, #2ebf91);
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .navbar {
+            background: #2c3e50;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            background: #34495e;
+            border-radius: 5px;
+        }
+        .title {
+            font-size: 48px;
+            font-family: 'Dancing Script', cursive;
+            color: white;
+            margin: 50px 0;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            padding: 50px 20px;
+        }
+        .content-container p {
+            font-size: 22px;
+            font-family: 'Poppins', sans-serif;
+            width: 60%;
+            line-height: 1.8;
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        }
+        .image-container img {
+            width: 80%;
+            max-width: 800px;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div><strong>Menu</strong></div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="agama.html">Agama</a>
+            <a href="pkn.html">PKN</a>
+            <a href="bahasa_indonesia.html">Bahasa Indonesia</a>
+            <a href="bahasa_inggris.html">Bahasa Inggris</a>
+            <a href="ips.html">IPS</a>
+            <a href="bahasa_mandarin.html">Bahasa Mandarin</a>
+        </div>
+    </div>
+    <h1 class="title">Tugas PKN</h1>
+    <div class="content-container">
+        <p>Yang membuat arsitektur Prambanan begitu istimewa dan unik adalah Candi tersebut merupakan 
+            replika dari <strong>gunung Himalaya</strong> dengan menjulang tinggi.
+        </p>
+        <p>Candi Prambanan dan Borobudur memiliki aristektur yang berbeda. Candi Prambanan dibuat menjulang <strong>tinggi</strong> namun 
+            Candi Borobudur dibuat menjulang <strong>panjang</strong>.
+        </p>
+        <p>Warisan arsitektur Candi Prambanan mempengaruhi pembuatan candi-candi lain di <strong>Jawa Timur</strong> 
+            seperti candi Merah.</p>
+        <p>Peran budaya dan agama dalam pembangunan candi Prambanan adalah <strong>melambang kerukunan antar umat beragam</strong>.</p>
+        <p>Kerajaan Yogyakarta memainkan peran dalam pembentuka nasionalisme Indonesia dengan <strong>bergabungnya keraton dengan pemerintah NKRI</strong>.</p>
+        <p>Keraton mempertahankan tradisi dan nilai-nilai budaya Indonesia dengan <strong>upacara</strong> tetap dilakukan sampai sekarang.</p>
+        <div class="image-container">
+            <img src="https://jelajahlangkah.com/wp-content/uploads/2019/10/00__9060287.jpg" alt="Homework Image">
+        </div>
+    </div>
+</body>
+</html>

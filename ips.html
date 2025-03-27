@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #8360c3, #2ebf91);
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .navbar {
+            background: #2c3e50;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            background: #34495e;
+            border-radius: 5px;
+        }
+        .title {
+            font-size: 48px;
+            font-family: 'Dancing Script', cursive;
+            color: white;
+            margin: 50px 0;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .content-container p {
+            font-size: 22px;
+            font-family: 'Poppins', sans-serif;
+            width: 60%;
+            line-height: 1.8;
+            color: white;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        }
+        .image-container img {
+            width: 80%;
+            max-width: 800px;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div><strong>Menu</strong></div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="agama.html">Agama</a>
+            <a href="pkn.html">PKN</a>
+            <a href="bahasa_indonesia.html">Bahasa Indonesia</a>
+            <a href="bahasa_inggris.html">Bahasa Inggris</a>
+            <a href="ips.html">IPS</a>
+            <a href="bahasa_mandarin.html">Bahasa Mandarin</a>
+        </div>
+    </div>
+    <h1 class="title">Tugas IPS</h1>
+    <div class="content-container">
+        <p><strong>Pengalamanku membajak sawah menggunakan kerbau adalah sangat seru.</strong> Ini dikarenakan saya belum pernah melakukan hal tersebut, sehingga saat saya melakukannya, saya merasa terkagum. Dan karena saya melakukannya dengan teman saya Steve, hal tersebut menjadi lebih seru.</p>
+        <p>-Tujuan membajak sawah adalah agar tanah menjadi lebih subur dari bawah ke atas.</p>
+        <p><strong>Pengalaman menaiki Candi Prambanan adalah sangat keren.</strong> Ini dikarenakan saya dapat melihat infrastruktur unik, rumit, cantik, dan besar yang dimiliki oleh Candinya. Oleh karena itu, saya menjadi terkagum. Saya juga dapat belajar tentang Candinya.</p>
+        <p>Wawancara:</p>
+        <p>-Domestik = Sangat keren, rumit, cantik, kesan</p>
+        <p>-Asing = Keindahan: Fantastic (amazing, old), kebersihan: Excellent, fasilitas: clean, akses: easy, harga: expensive to maintain, keamanan: safe.</p>
+        <div class="image-container">
+            <img src="aldev.jpeg" alt="Homework Image">
+        </div>
+        <p>Wawancara Musuem Sangiran:</p>
+        <p>• Karakteristik masyarakat berburu:</p>
+        <p>1. Berburu secara berkelompok</p>
+        <p>2. Berburu dengan bola batu</p>
+        <p>• Faktor penyebab pergantian cara hidupnya:</p>
+        <p>1. Evolusi / menambah keamanan atau pemilihan</p>
+        <p>2. Dulu berburu lacuna naluri tetapi berhenti karena inovasi.</p>
+        <p>Wawancara Live In:</p>
+        <p>1. Pekerjaan = Buruh serabutan</p>
+        <p>2. Riwayat bangunan tempat tinggal = Dipakai sejak 2009</p>
+        <p>3. Peran di Masyarakat = Sebagai warga</p>
+        <p>4. Tradisi keluarga = Arisan Trah</p>
+        <p>5. Tradisi masyarakat = Kenduri</p>
+        <p>6. Pengelolaan keuangan = Disesuaikan dengan pendapatan karena tidak setiap hari menghasilkan uang. Oleh karena itu, pengeluaran tidak boleh lebih besar dibanding pendapatan.</p>
+        <p>7. Pengelolaan lingkungan = Membersihkan area sekitar, menanam pohon/tanaman.</p>
+    </div>
+</body>
+</html>
